@@ -1,0 +1,29 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: 13229
+ * Date: 2018/11/10
+ * Time: 12:39
+ */
+
+namespace app\api\controller;
+
+
+use think\Request;
+
+class Test
+{
+
+    public function  hello(){
+        $all=input('param.');//param也可以是get和post    如果只写一个.就表示获取全部的参数，如果点后面有具体的值  那么就是获取特定的值；
+        $id=Request::instance()->param('id');
+//        $id=Request::instance()-round();
+//        var_dump($id);
+//var_dump($all);
+
+        echo json_encode($all);//这个是在把一个字符串或者一个数组转变成json类型的
+        $name=Request::instance()->param('name');//this function 不区分请求方式//如果什么都不写就会获取全部变量；返回一个数组
+        echo $id ."|||";
+        echo  $name;
+    }
+}
