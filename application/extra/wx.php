@@ -6,8 +6,8 @@
  * Time: 18:28
  */
 return [
-    'app_id'=>'wx36440dc5a44d4169',
-    'app_secret'=>'3a62df9107b8544dc19881f3a5850829',
+    'app_id'=>'',
+    'app_secret'=>'',
     'login_url'=>"https://api.weixin.qq.com/sns/jscode2session?appid=%s&secret=%s&js_code=%s&grant_type=authorization_code",
     'access_token_url' => "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=%s&secret=%s",
 ];

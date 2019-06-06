@@ -7,5 +7,5 @@
  */
 
 return [
-  'img_prefix'=>'https://www.api.getlaura.top/images',
+  'img_prefix'=>'',//图片地址
 ];

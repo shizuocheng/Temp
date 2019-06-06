@@ -8,5 +8,5 @@
 return [
     'token_salt'=>'bvjbdsfjvbjdfvbjdlbf',
     'token_expire_in'=>7200,
-    'pay_back_url'=>'https://www.getlaura.top/notifi'
+    'pay_back_url'=>''//你的回传地址
 ];
